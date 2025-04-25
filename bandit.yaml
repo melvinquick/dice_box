@@ -1,0 +1,16 @@
+exclude_dirs:
+  [
+    ".venv/",
+    "dist/",
+    "src/dice_box/__pycache__",
+    "src/dice_box/resources/",
+    ".gitignore",
+    ".python-version",
+    "bandit.yaml",
+    "LICENSE",
+    "pyproject.toml",
+    "README.md",
+    "uv.lock",
+  ]
+tests: []
+skips: ["B404", "B603", "B607"]

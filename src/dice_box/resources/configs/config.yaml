@@ -1,0 +1,14 @@
+window_title: "Dice Box"
+window_size:
+  width: 740
+  height: 150
+input_widgets:
+  width: 220
+num_dice:
+  min: 1
+  max: 10
+  default: 1
+num_sides:
+  min: 2
+  max: 100
+  default: 6

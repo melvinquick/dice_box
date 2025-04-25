@@ -1,0 +1,23 @@
+[project]
+name = "dice_box"
+version = "1.0.0"
+description = "Dice roller for board games, card games, bets, etc."
+readme = "src/dice_box/resources/PYPI_README.md"
+license = "MIT"
+authors = [{ name = "Melvin Quick", email = "melvinquick@proton.me" }]
+requires-python = ">=3.9"
+dependencies = ["pyside6>=6.9.0", "pyyaml>=6.0.2"]
+
+[project.urls]
+repository = "https://codeberg.org/melvinquick/dice_box"
+issues = "https://codeberg.org/melvinquick/dice_box/issues"
+
+[project.gui-scripts]
+dice-box = "dice_box.app:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = ["bandit>=1.8.3"]
